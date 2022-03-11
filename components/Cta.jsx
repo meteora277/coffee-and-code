@@ -25,7 +25,7 @@ const Cta = () => {
       <style jsx>{`
         article {
           height: 100vh;
-          padding: 2rem;
+          padding: 2rem 10rem;
           max-width: 1920px;
           margin: 0 auto;
         }
@@ -34,7 +34,7 @@ const Cta = () => {
           color: salmon;
           font-size: 4rem;
           width: 50%;
-          margin-top: 4rem;
+          margin-top: 10rem;
         }
 
         .custom-shape-divider-top-1647023911 {
@@ -61,6 +61,9 @@ const Cta = () => {
         @media screen and (max-width: 750px) {
           h1 {
             width: 100%;
+          }
+          article {
+            padding: 2rem;
           }
           .custom-shape-divider-top-1647023911 svg {
             width: calc(400% + 1.3px);

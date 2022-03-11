@@ -1,22 +1,26 @@
 const Navbar = ({ children }) => {
   return (
-    <nav>
-      <a>Justin Diaz</a>
-      <ul>{children}</ul>
-      <style jsx>{`
-        nav {
-          background-color: pink;
-          display: flex;
-          justify-content: space-between;
-          padding: 1rem 1.6rem;
-        }
-        ul {
-          display: flex;
-          justify-content: flex-end;
-          margin: 0;
-        }
-      `}</style>
-    </nav>
+    <header>
+      <nav>
+        <a>Justin Diaz</a>
+        <ul>{children}</ul>
+        <style jsx>{`
+          nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 1.6rem;
+          }
+          ul {
+            display: flex;
+            justify-content: flex-end;
+            margin: 0;
+          }
+        `}</style>
+      </nav>
+    </header>
   );
 };
 Navbar.Item = function NavbarItem({ text, link }) {

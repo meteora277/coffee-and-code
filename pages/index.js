@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Justin Diaz</title>
+        <title>Full Stack Web Developer</title>
         <meta name="description" content="Justin Diaz's portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -18,6 +18,7 @@ export default function Home() {
           <Navbar.Item text="About" link="/" />
           <Navbar.Item text="Contact" link="/" />
         </Navbar>
+        <Cta />
         <Cta />
       </main>
     </div>

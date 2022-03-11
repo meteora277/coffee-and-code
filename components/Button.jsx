@@ -9,7 +9,7 @@ const Button = ({ text }) => {
           padding: 1rem 1.6rem;
           color: white;
           border-radius: 1rem;
-          margin: 0 0.5rem;
+          margin-right: 1rem;
         }
       `}</style>
     </button>

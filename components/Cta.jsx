@@ -24,17 +24,19 @@ const Cta = () => {
 
       <style jsx>{`
         article {
-          height: 720px;
+          height: 100vh;
           padding: 2rem;
+          max-width: 1920px;
+          margin: 0 auto;
         }
         h1 {
           margin: 0;
           color: salmon;
           font-size: 4rem;
+          width: 50%;
+          margin-top: 4rem;
         }
-        .heading {
-          height: 600px;
-        }
+
         .custom-shape-divider-top-1647023911 {
           z-index: -10;
           position: absolute;
@@ -55,6 +57,16 @@ const Cta = () => {
 
         .custom-shape-divider-top-1647023911 .shape-fill {
           fill: #ffdcdc;
+        }
+        @media screen and (max-width: 750px) {
+          h1 {
+            width: 100%;
+          }
+          .custom-shape-divider-top-1647023911 svg {
+            width: calc(400% + 1.3px);
+            height: 150vh;
+            transform: translateX(-37.5%);
+          }
         }
       `}</style>
     </article>

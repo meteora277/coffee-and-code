@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar";
+import Cta from "../components/Cta";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <Navbar.Item text="About" link="/" />
           <Navbar.Item text="Contact" link="/" />
         </Navbar>
+        <Cta />
       </main>
     </div>
   );

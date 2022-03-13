@@ -2,8 +2,8 @@ import Button from "./Button";
 
 const MissionStatement = () => {
   return (
-    <section>
-      <div className="container">
+    <article>
+      <section>
         <h1>
           Being a full stack developer means that I have the tools needed to
           work on every part of a project.
@@ -20,9 +20,9 @@ const MissionStatement = () => {
           text="View Skills"
           styles="align-self: center;"
         />
-      </div>
+      </section>
       <style jsx>{`
-        section {
+        article {
           height: 100vh;
         }
         h1 {
@@ -39,14 +39,14 @@ const MissionStatement = () => {
           font-size: 1.4rem;
           text-align: center;
         }
-        .container {
+        section {
           height: 100%;
           display: flex;
           flex-direction: column;
           justify-content: center;
         }
       `}</style>
-    </section>
+    </article>
   );
 };
 

@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar";
 import Cta from "../components/Cta";
+import Skills from "../components/Skills";
 import MissionStatement from "../components/MissionStatement";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
         </Navbar>
         <Cta />
         <MissionStatement />
+        <Skills />
       </main>
     </div>
   );

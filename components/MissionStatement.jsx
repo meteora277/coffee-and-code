@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const MissionStatement = () => {
   return (
     <section>
@@ -13,6 +15,11 @@ const MissionStatement = () => {
           enthusiastic, giving constructive assessments, and empowering those
           around me.
         </p>
+        <Button
+          className="button"
+          text="View Skills"
+          styles="align-self: center;"
+        />
       </div>
       <style jsx>{`
         section {

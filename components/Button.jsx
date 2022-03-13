@@ -1,4 +1,4 @@
-const Button = ({ text }) => {
+const Button = ({ text, styles }) => {
   return (
     <button>
       {text}
@@ -10,6 +10,7 @@ const Button = ({ text }) => {
           color: white;
           border-radius: 1rem;
           margin-right: 1rem;
+          ${styles}
         }
       `}</style>
     </button>
